@@ -5,12 +5,17 @@ body {
 /*-------------------------------NavBar------------------------------*/
 
 .nav-bar {
-	display: relative;
+	display: block;
+	position: absolute;
+	top: 90px;
 }
 
 .global-nav {
-	display: flex;
-	flex-direction: row;
+	display: table;
+}
+
+.global-nav li {
+	display: table-cell;
 }
 
 /*-------------------------------TOP------------------------------*/
