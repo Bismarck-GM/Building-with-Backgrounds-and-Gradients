@@ -11,12 +11,35 @@ body {
 }
 
 .global-nav {
-	display: table;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 845px;
+	height: 36px;
 }
 
 .global-nav li {
-	display: table-cell;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	background-color: grey;
 }
+
+.global-nav a {
+	font-family: 'Rosario', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.global-nav input {
+	width: 132px;
+}
+
+.global-nav img {
+	height: 20px;
+}
+
 
 /*-------------------------------TOP------------------------------*/
 
