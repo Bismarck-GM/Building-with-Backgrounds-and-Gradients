@@ -1,7 +1,11 @@
+body {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
 /*-------------------------------NavBar------------------------------*/
 
 .nav-bar {
-	display: flex;
+	display: relative;
 }
 
 .global-nav {
@@ -13,6 +17,7 @@
 
 .main-onepage {
 	display: block;
+	margin: 0 auto;
 	justify-content: center;
 	background-color: aqua;
 	width: 1440px;
@@ -20,11 +25,50 @@
 }
 
 .section-top {
-	display: block;
-	flex-direction: column;
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
 	background-size: 1440px 1315px;
+	height: 600px;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+}
+.section-top h1 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 74px;
+	margin-bottom: 40px;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 100;
+}
+
+.section-top h2 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	color: rgba(255, 255, 255, 1);
+	line-height: 38px;
+	font-weight: 300;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.link-to-videos {
+	display: flex;
+	justify-content: center;
+}
+
+.link-to-videos a, span{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
+	line-height: 38px;
+	font-weight: 300;
+
 }
 
 .promos ul {
@@ -33,4 +77,32 @@
 }
 .promos ul li {
 	display: flex;
+}
+
+.promo1 {
+	background: url(../img/promo_iphone5s_2x.jpg) 50%;
+	background-size: 364px 200px;
+	height: 200px;
+	width: 364px;
+}
+
+.promo2 {
+	background: url(../img/promo_iphone5c.jpg) 50%;
+	background-size: 364px 200px;
+	height: 200px;
+	width: 364px;
+}
+
+.promo3 {
+	background: url(../img/promo_30_years.jpg) 50%;
+	background-size: 364px 200px;
+	height: 200px;
+	width: 364px;
+}
+
+.promo4 {
+	background: url(../img/promo_supplier_responsibility.jpg) 50%;
+	background-size: 364px 200px;
+	height: 200px;
+	width: 364px;
 }
