@@ -21,7 +21,7 @@ The goal is to make a clone of old an old version of the Apple website webpage..
 
 - Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
 - Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
-- Linkedin: [geronimomorisot](https://linkedin.com/in/geronimomorisot)
+- Linkedin: [Gerónimo Morisot](https://linkedin.com/in/geronimomorisot)
 
 ## 🤝 Contributing
 
