@@ -10,9 +10,10 @@
 }
 
 /*-------------------------------TOP------------------------------*/
+
 .main-onepage {
 	display: block;
-	align-items: center;
+	justify-content: center;
 	background-color: aqua;
 	width: 1440px;
 
@@ -26,3 +27,10 @@
 	background-size: 1440px 1315px;
 }
 
+.promos ul {
+	display: flex;
+	flex-direction: row;
+}
+.promos ul li {
+	display: flex;
+}
