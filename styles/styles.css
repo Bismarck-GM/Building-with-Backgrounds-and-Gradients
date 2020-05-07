@@ -243,9 +243,6 @@ body {
   text-align: end;
 }
 
-.footer-left {
-}
-
 .footer-right {
   display: flex;
   flex-direction: row;
