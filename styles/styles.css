@@ -13,25 +13,75 @@ body {
 
 .global-nav {
   display: flex;
-  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-radius: 6px;
+  background: #9fa1a1;
+  background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #9fa1a1 0%,
+    #5e5e5e 50%,
+    #9fa1a1 100%
+  );
+  background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
 }
 
 .global-nav li {
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-  background-color: grey;
+  width: 100px;
+  border-right: 1px solid #000;
 }
 
 .global-nav a {
-  font-family: "Rosario", sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
+  font-family: "Rosario", sans-serif;
+}
+
+.global-nav a:hover {
+  background: #3b3b3b;
+  background: -moz-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
+}
+
+.apple-logo-li {
+  border-radius: 6px 0 0 6px;
+}
+
+.nav-search {
+  width: 125px;
+  height: 15px;
+  position: relative;
+  top: 10px;
+  margin: 0 15px 0 15px;
+  background: #9fa1a1;
+  background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #9fa1a1 0%,
+    #5e5e5e 50%,
+    #9fa1a1 100%
+  );
+  background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
 }
 
 .global-nav input {
   width: 132px;
+  color: white;
+}
+
+.global-nav input:focus {
+  background: white;
+  color: black;
 }
 
 .global-nav img {
@@ -45,7 +95,6 @@ body {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  background-color: aqua;
   width: 1440px;
 }
 
@@ -53,14 +102,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
-  background-size: 1440px 1315px;
+  background: url(../img/your_verse_hero.jpg) 0 100% no-repeat;
   height: 600px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 .section-top h1 {
   text-align: center;
@@ -69,6 +118,7 @@ body {
   margin-bottom: 40px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 100;
+  user-select: none;
 }
 
 .section-top h2 {
@@ -78,56 +128,106 @@ body {
   color: rgba(255, 255, 255, 1);
   line-height: 38px;
   font-weight: 300;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
+  text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.6);
+  user-select: none;
 }
 
 .link-to-videos {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 
-.link-to-videos a,
-span {
+.link-to-videos a {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
   color: rgba(255, 255, 255, 1);
   line-height: 38px;
   font-weight: 300;
+  cursor: pointer;
+}
+
+.link-to-videos span {
+  font-size: 45px;
+  position: relative;
+  top: 14px;
+}
+
+.link-to-videos a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+/*-------------------------------ASIDE------------------------------*/
+
+.promos {
+  padding: 2px;
+}
+
+.promos a {
+  width: 100%;
 }
 
 .promos ul {
   display: flex;
   flex-direction: row;
 }
+
 .promos ul li {
   display: flex;
 }
 
 .promo1 {
-  background: url(../img/promo_iphone5s_2x.jpg) 50%;
+  background: url(../img/promo_iphone5s_2x.jpg) 50% no-repeat;
   background-size: 364px 200px;
   height: 200px;
   width: 364px;
+  margin-left: -2px;
 }
 
 .promo2 {
-  background: url(../img/promo_iphone5c.jpg) 50%;
+  background: url(../img/promo_iphone5c.jpg) 50% no-repeat;
   background-size: 364px 200px;
   height: 200px;
   width: 364px;
 }
 
 .promo3 {
-  background: url(../img/promo_30_years.jpg) 50%;
+  background: url(../img/promo_30_years.jpg) 50% no-repeat;
   background-size: 364px 200px;
   height: 200px;
   width: 364px;
 }
 
 .promo4 {
-  background: url(../img/promo_supplier_responsibility.jpg) 50%;
+  background: url(../img/promo_supplier_responsibility.jpg) 50% no-repeat;
   background-size: 364px 200px;
   height: 200px;
   width: 364px;
+  margin-right: -2px;
+}
+
+/*-------------------------------FOOTER------------------------------*/
+
+.main-footer {
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 20px;
+  display: flex;
+}
+
+.footer-left {
+}
+
+.footer-right {
+}
+
+.copyright {
 }
