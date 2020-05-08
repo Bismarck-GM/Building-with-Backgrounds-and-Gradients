@@ -2,7 +2,7 @@
 
 > Building a webpage using images as a background and adding gradients to elements.
 
-![screenshot]()
+![screenshot](img/screenshot.png)
 
 The goal is to make a clone of old an old version of the Apple website webpage..
 
@@ -13,7 +13,7 @@ The goal is to make a clone of old an old version of the Apple website webpage..
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Bismarck-GM/Building-with-Backgrounds-and-Gradients/homepage/index.html)
 
 ## Author
 
