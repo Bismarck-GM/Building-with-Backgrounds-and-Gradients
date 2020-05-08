@@ -1,9 +1,14 @@
 body {
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
-    Verdana, sans-serif;
+  font:
+    12px/18px "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
 }
 
-/*-------------------------------NavBar------------------------------*/
+/* ------------------------------- NavBar ------------------------------ */
 
 .nav-bar {
   display: block;
@@ -20,12 +25,7 @@ body {
   border-radius: 6px;
   background: #9fa1a1;
   background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #9fa1a1 0%,
-    #5e5e5e 50%,
-    #9fa1a1 100%
-  );
+  background: -webkit-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
   background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
 }
 
@@ -50,11 +50,14 @@ body {
   font-family: "Rosario", sans-serif;
 }
 
-.global-nav a:hover {
-  background: #3b3b3b;
-  background: -moz-radial-gradient(center, #3b3b3b 0%, #808080 100%);
-  background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
-  background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
+.link-to-videos a {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 38px;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 .apple-logo-li {
@@ -69,12 +72,7 @@ body {
   margin: 0 15px 0 15px;
   background: #9fa1a1;
   background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #9fa1a1 0%,
-    #5e5e5e 50%,
-    #9fa1a1 100%
-  );
+  background: -webkit-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
   background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
 }
 
@@ -92,7 +90,7 @@ body {
   height: 20px;
 }
 
-/*-------------------------------TOP------------------------------*/
+/* ------------------------------- TOP ------------------------------ */
 
 .main-onepage {
   display: flex;
@@ -115,6 +113,7 @@ body {
   flex-direction: column;
   margin-top: 30px;
 }
+
 .section-top h1 {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
@@ -142,28 +141,13 @@ body {
   margin-top: 15px;
 }
 
-.link-to-videos a {
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  line-height: 38px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
 .link-to-videos span {
   font-size: 45px;
   position: relative;
   top: 14px;
 }
 
-.link-to-videos a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-}
-
-/*-------------------------------ASIDE------------------------------*/
+/* -------------------------------ASIDE------------------------------ */
 
 .promos {
   padding: 2px;
@@ -176,10 +160,6 @@ body {
 .promos ul {
   display: flex;
   flex-direction: row;
-}
-
-.promos ul li {
-  display: flex;
 }
 
 .promo1 {
@@ -212,7 +192,7 @@ body {
   margin-right: -2px;
 }
 
-/*-------------------------------FOOTER------------------------------*/
+/* -------------------------------FOOTER------------------------------ */
 
 .main-footer {
   min-width: 980px;
@@ -227,10 +207,6 @@ body {
   text-decoration: none;
   color: #08c;
   font-size: 10px;
-}
-
-.main-footer a:hover {
-  text-decoration: underline;
 }
 
 .main-footer p {
@@ -257,6 +233,11 @@ body {
   text-align: right;
   margin-right: 4px;
 }
+
+.promos ul li {
+  display: flex;
+}
+
 .copyright {
   margin: 0 auto;
   width: 980px;
@@ -266,4 +247,22 @@ body {
 
 .copyright p {
   margin-right: 4px;
+}
+
+/* ------------------------------- HOVER ------------------------------ */
+
+.link-to-videos a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.global-nav a:hover {
+  background: #3b3b3b;
+  background: -moz-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
 }
