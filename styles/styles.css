@@ -253,7 +253,6 @@ body {
 
 .link-to-videos a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
 }
 
 .main-footer a:hover {
