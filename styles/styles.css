@@ -29,9 +29,13 @@ body {
   background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
 }
 
-.global-nav li {
-  width: 100px;
+.menu {
+  width: 100%;
   border-right: 1px solid #000;
+}
+
+.end {
+  border: none;
 }
 
 .global-nav a {
@@ -40,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100px;
   height: 100%;
   text-decoration: none;
   font-family: "Rosario", sans-serif;
