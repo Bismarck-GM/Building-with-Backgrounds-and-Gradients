@@ -5,7 +5,8 @@ body {
     Helvetica,
     Arial,
     Verdana,
-    sans-serif;
+    sans-serif,
+    'Font Awesome 5 Free';
   box-sizing: border-box;
 }
 
@@ -86,10 +87,16 @@ body {
 }
 
 .global-nav input {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif, 'Font Awesome 5 Free';
   width: 132px;
   color: white;
   border-radius: 15px;
   text-indent: 8px;
+  border: 1px solid #5e5e5e;
+}
+
+.global-nav input::placeholder {
+  color: white;
 }
 
 .global-nav input:focus {
