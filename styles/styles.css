@@ -6,6 +6,7 @@ body {
     Arial,
     Verdana,
     sans-serif;
+  box-sizing: border-box;
 }
 
 /* ------------------------------- NavBar ------------------------------ */
@@ -92,22 +93,15 @@ body {
 
 /* ------------------------------- TOP ------------------------------ */
 
-.main-onepage {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  justify-content: center;
-  width: 1440px;
-}
-
 .section-top {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   background: url(../img/your_verse_hero.jpg) 0 100% no-repeat;
   min-height: 600px;
-  padding-top: 3%;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
@@ -153,6 +147,9 @@ body {
 
 .promos {
   padding: 2px;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .promos a {
@@ -203,6 +200,9 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-footer a {
@@ -267,3 +267,4 @@ body {
   background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
   background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
 }
+
