@@ -35,6 +35,14 @@ body {
   border-right: 1px solid #000;
 }
 
+.menu span {
+  position: relative;
+  bottom: 23%;
+  left: 11%;
+  font-size: 19px;
+  color: white;
+}
+
 .end {
   border: none;
 }
@@ -80,11 +88,14 @@ body {
 .global-nav input {
   width: 132px;
   color: white;
+  border-radius: 15px;
+  text-indent: 8px;
 }
 
 .global-nav input:focus {
   background: white;
   color: black;
+  outline: none;
 }
 
 .global-nav img {
