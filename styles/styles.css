@@ -205,7 +205,6 @@ body {
 /* -------------------------------FOOTER------------------------------ */
 
 .main-footer {
-  min-width: 980px;
   width: 100%;
   height: 90px;
   display: flex;
@@ -278,4 +277,3 @@ body {
   background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
   background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
 }
-
