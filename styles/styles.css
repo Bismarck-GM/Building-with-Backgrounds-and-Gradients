@@ -1,0 +1,286 @@
+body {
+  font:
+    12px/18px "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif,
+    'Font Awesome 5 Free';
+  box-sizing: border-box;
+}
+
+/* ------------------------------- NavBar ------------------------------ */
+
+.nav-bar {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.global-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-radius: 6px;
+  background: #9fa1a1;
+  background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: -webkit-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+}
+
+.menu {
+  width: 100%;
+  border-right: 1px solid #000;
+}
+
+.menu span {
+  position: relative;
+  bottom: 23%;
+  left: 11%;
+  font-size: 19px;
+  color: white;
+}
+
+.end {
+  border: none;
+}
+
+.global-nav a {
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100%;
+  text-decoration: none;
+  font-family: "Rosario", sans-serif;
+}
+
+.link-to-videos a {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 38px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.apple-logo-li {
+  border-radius: 6px 0 0 6px;
+}
+
+.nav-search {
+  width: 125px;
+  height: 15px;
+  position: relative;
+  top: 10px;
+  margin: 0 15px 0 15px;
+  background: #9fa1a1;
+  background: -moz-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: -webkit-linear-gradient(top, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+  background: linear-gradient(to bottom, #9fa1a1 0%, #5e5e5e 50%, #9fa1a1 100%);
+}
+
+.global-nav input {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif, 'Font Awesome 5 Free';
+  width: 132px;
+  color: white;
+  border-radius: 15px;
+  text-indent: 8px;
+  border: 1px solid #5e5e5e;
+}
+
+.global-nav input::placeholder {
+  color: white;
+}
+
+.global-nav input:focus {
+  background: white;
+  color: black;
+  outline: none;
+}
+
+.global-nav img {
+  height: 20px;
+}
+
+/* ------------------------------- TOP ------------------------------ */
+
+.section-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/your_verse_hero.jpg) 0 100% no-repeat;
+  min-height: 600px;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.section-top h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 74px;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  user-select: none;
+}
+
+.section-top h2 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 38px;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.6);
+  user-select: none;
+}
+
+.link-to-videos {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.link-to-videos span {
+  font-size: 45px;
+  position: relative;
+  top: 14px;
+}
+
+/* -------------------------------ASIDE------------------------------ */
+
+.promos {
+  padding: 2px;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.promos a {
+  width: 100%;
+}
+
+.promos ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.promo1 {
+  background: url(../img/promo_iphone5s_2x.jpg) 50% no-repeat;
+  background-size: 364px 200px;
+  height: 200px;
+  width: 364px;
+  margin-left: -2px;
+}
+
+.promo2 {
+  background: url(../img/promo_iphone5c.jpg) 50% no-repeat;
+  background-size: 364px 200px;
+  height: 200px;
+  width: 364px;
+}
+
+.promo3 {
+  background: url(../img/promo_30_years.jpg) 50% no-repeat;
+  background-size: 364px 200px;
+  height: 200px;
+  width: 364px;
+}
+
+.promo4 {
+  background: url(../img/promo_supplier_responsibility.jpg) 50% no-repeat;
+  background-size: 364px 200px;
+  height: 200px;
+  width: 364px;
+  margin-right: -2px;
+}
+
+/* -------------------------------FOOTER------------------------------ */
+
+.main-footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 1000px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 10px;
+}
+
+.main-footer p {
+  text-decoration: none;
+  color: #333;
+  font-size: 10px;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 20px;
+  display: flex;
+  text-align: end;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.footer-right li {
+  text-align: right;
+  margin-right: 4px;
+}
+
+.promos ul li {
+  display: flex;
+}
+
+.copyright {
+  margin: 0 auto;
+  width: 980px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.copyright p {
+  margin-right: 4px;
+}
+
+/* ------------------------------- HOVER ------------------------------ */
+
+.link-to-videos a:hover {
+  text-decoration: underline;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.global-nav a:hover {
+  background: #3b3b3b;
+  background: -moz-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: -webkit-radial-gradient(center, #3b3b3b 0%, #808080 100%);
+  background: radial-gradient(ellipse at center, #3b3b3b 0%, #808080 100%);
+}
